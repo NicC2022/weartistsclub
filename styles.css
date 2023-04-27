@@ -1,0 +1,137 @@
+/* Universal Styles */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #8b1010;
+  }
+  
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* Header */
+
+#header {
+    display: flex;
+    background-color: #A64039;
+    margin: 0 auto;
+    padding: 1rem;
+    z-index: 50;
+    align-items: center;
+  }
+
+.header-items {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.header-items a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 525;
+    border: 1px solid white;
+    padding: .8rem;
+}
+
+
+/* Intro Section */
+
+.intro {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem;
+  color: white;
+  background-image: url(Resources/austin-neill-IfhsSUuzaHc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+
+}
+
+.info {
+  background-color: rgba(0, 0, 0, 0.808);
+  padding: 2rem;
+}
+
+.info h4 {
+  font-weight: lighter;
+}
+
+.info h5 {
+  font-weight: lighter;
+}
+
+@media screen and (min-width: 1025px) {
+  .info h1 {
+    font-size: 4rem;
+    margin: 2rem;
+  }
+}
+
+
+/* Description */
+.description {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.description h2 {
+  font-style: italic;
+  color: #ffa739;
+}
+
+.description {
+  color: white;
+}
+
+@media screen and (min-width: 1025px) {
+  .description {
+    text-align: center;
+}
+}
+
+/* Images */
+.photos img {
+  width: 100%;
+}
+
+
+@media screen and (min-width: 480px) {
+   .photos img {
+     width: 50%;
+   }
+
+   .photos {
+    display: flex;
+   }
+ }
+
+
+
+.testimony {
+display: flex;
+background-color: #2a5fa9;
+margin: 2rem;
+}
+
+.testimony h2 {
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  color: #ffa739;
+}
